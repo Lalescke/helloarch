@@ -3,11 +3,12 @@
 CURRENT_DATE=$(date +"%Y-%m-%d")
 COMPUTER_NAME=$(hostname)
 
+
 # Define the source files
-HYPRCONFFILE="/gui/hypr/hyprland.conf"
+HYPRCONFFILE="gui/hypr/hyprland.conf"
 
 # Define the target directory
-HYPRCONF_DIR="~/.config/hypr/"
+HYPRCONF_DIR="$HOME/.config/hypr/"
 
 git pull
 

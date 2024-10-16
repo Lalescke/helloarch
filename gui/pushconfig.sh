@@ -4,10 +4,10 @@ CURRENT_DATE=$(date +"%Y-%m-%d")
 COMPUTER_NAME=$(hostname)
 
 # Define the source files
-HYPRCONFFILE="~/.config/hypr/hyprland.conf"
+HYPRCONFFILE="$HOME/.config/hypr/hyprland.conf"
 
 # Define the target directory
-HYPRCONF_DIR="/gui/hyprland"
+HYPRCONF_DIR="/gui/hypr"
 
 # Copy the files to the target directory and overwrite if they already exist
 cp -f "$HYPRCONFFILE" "$HYPRCONF_DIR"
